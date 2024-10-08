@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi", "hello", "hey", "hi there", "good morning", "good afternoon", "good evening", 
+                "hello, I'm ready to study", "let's start revising"
+            ],
+            "responses": [
+                "Hi! Ready to get some revision done?", "Hello! Let's dive into some studying.", 
+                "Hey there! What topic are we revising today?", "Good to see you! How can I assist with your studies?", 
+                "Hi, ready to tackle some questions?"
+            ]
+        },
+        {
+            "tag": "study_topic",
+            "patterns": [
+                "I would like to study [subject]", "I want to revise [topic]", "Let's go over [subject]", 
+                "Can we study [topic]?", "I need help with [subject]", "I want to focus on [topic]", 
+                "Let's review [subject]","can we revise [subject]"
+            ],
+            "responses": [
+                "Great! Let's dive into [subject].", "Sure! We can study [topic].", 
+                "Let's get started on [subject]!", "Okay, let's review [topic].", 
+                "Perfect! Let's focus on [subject]."
+            ]
+        },
+        {
+            "tag": "study_something",
+            "patterns": [
+                "I would like to study something", "I want to go over a topic", "Let's study something", 
+                "Can we go over a subject?", "I need to study", "I want to focus on something", 
+                "Let's review some material", "I'm in the mood to study", "Can we cover something?", 
+                "I need to learn something new","i would like to revise today","can i revise","can we study","what topics can we study","how should i study"
+            ],
+            "responses": [
+                "Sure! What would you like to study?", "Great! What topic are you thinking about?", 
+                "I'm ready to help! What subject do you want to go over?", 
+                "Awesome! Let me know what you'd like to focus on.", 
+                "Perfect! What would you like to review today?", "Let's do it! What are you interested in studying?", 
+                "Sounds good! What topic should we start with?", 
+                "I’m here to help! What subject do you want to cover?"
+            ]
+        },
+        {
+            "tag": "ask_weather",
+            "patterns": [
+                "What's the weather like?", "How's the weather today?", "Tell me the weather", 
+                "What's the weather forecast?", "Is it going to rain today?", "How's the weather outside?", 
+                "Can you tell me the weather?", "What's the weather report?", 
+                "Do I need an umbrella today?", "What's the temperature outside?","weather","weater","wether","why is weather",
+                "do the weather","how weather","the atmosphere outside?"
+            ],
+            "responses": [
+                "Let me check the weather for you.", "Sure! Here's the weather update.", 
+                "Just a moment, I'll get the latest weather report.", 
+                "I'll find out the weather for you right now.", "Checking the weather, one moment.", 
+                "Here's what the weather looks like.", "Let me pull up the weather details for you.", 
+                "I'll tell you the weather in just a second.", "Sure! I'll get the forecast for you.", 
+                "Let me see if you'll need an umbrella today."
+            ]
+        }
+    ]
+}
